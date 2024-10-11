@@ -1,0 +1,49 @@
+package main
+
+import "fmt"
+
+var x = 10
+
+// THESE ARE THE GLOBAL VARIABLES
+// global varibles
+// STATISTICALLY TYPED LANGUAGE AUTOMATICALLY REFER THE TYPES OF THE VARIABLES
+// GROUPING OF VAR VARIABLES
+
+// 3. CONSTANTS VARIABLES
+const pi = 3.1417
+
+// COSNTANTS ARE IMMUTABLE
+// DECLARE ON OUT OF THE FUNCITON TOP OF THE PACKAGE
+// ITS LOWER CASE
+var (
+	name = "FOo"
+	// THIS IS EXPLICIT
+	firstName string = "FWR"
+)
+
+var (
+	farNamw        = "wfe"
+	tarName string = "fwerf"
+)
+
+const (
+	keylen = 10
+	chars  = 23
+	// ALWAYAS IN THE LOWER CASE
+)
+
+// INTITIALISIG THE LASTNAME AS EMPTY STRING
+var lastName string
+
+func main() {
+	// LOCAL VARIABLES INSIDE THE FUNTION SCOPE
+	// LOCAL SCOPE DONT NEED VAR KEY WORD WE CAN BUT DONT NEED IT
+	// IN LOCAL SCOPE '='
+	version := 1 // INFER INT
+	// var person int
+	// DECALRO BE TE THE PERSON VARIABLE WHICH IS GOING BE THE INT DATA TYPE
+	// otherVersion := "Bar"     // INFER STRING
+	// anotherVersion := 10.3421 // INFER FLOAT32 OR A FLOAT64
+	fmt.Println(version)
+	// STD LIBRARY TO PRINTING THE THINGS
+}
